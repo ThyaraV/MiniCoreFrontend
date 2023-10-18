@@ -1,0 +1,66 @@
+/* buscador.css */
+
+.container {
+    background-color: #f4e542;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: xx-large;
+    color: #ff5733; 
+    margin-bottom: 20px;
+  }
+  
+  .filtros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .fechas {
+    border: 2px solid #ff5733;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: x-large;
+    margin: 0 10px;
+  }
+  
+  .label {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+  
+  .boton {
+    background-color: #ff3365; 
+    color: white;
+    padding: 15px 30px; /* Aumenta el padding para hacer el botón más grande */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px; /* Opcional: ajusta el tamaño del texto según tus preferencias */
+  }
+  
+  .conbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .linkC {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  
+  .link {
+    color: #ff5733; 
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline; 
+  }
+  
